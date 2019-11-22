@@ -1,0 +1,9 @@
+[Unit]
+Description=Run open-the-client.service after boot 75s.
+
+[Timer]
+OnBootSec=75s
+Unit=open-the-door-client.service
+
+[Install]
+WantedBy=multi-user.target

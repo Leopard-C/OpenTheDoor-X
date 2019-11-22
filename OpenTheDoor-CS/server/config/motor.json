@@ -1,0 +1,9 @@
+{
+  "motor_pin1": 27,
+  "motor_pin2": 0,
+  "relay_pin":  23,
+  "l298n_relay_pin": 26,
+  "stop_pin_cw": 6,
+  "stop_pin_ccw": 25,
+  "verbose": 0
+}

@@ -1,0 +1,9 @@
+[Unit]
+Description=Open the door. Client.
+
+[Service]
+ExecStart=/bin/bash /home/pi/.door/systemd/open-the-door-client.sh
+ExecStop=/bin/bash /home/pi/.door/systemd/kill-door-client.sh
+
+[Install]
+WantedBy=multi-user.target
