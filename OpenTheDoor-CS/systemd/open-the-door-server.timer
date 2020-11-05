@@ -1,9 +1,0 @@
-[Unit]
-Description=Run open-the-door-server.service after boot 80s.
-
-[Timer]
-OnBootSec=80s
-Unit=open-the-door-server.service
-
-[Install]
-WantedBy=multi-user.target
