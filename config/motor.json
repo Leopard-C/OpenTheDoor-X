@@ -1,0 +1,6 @@
+{
+  "motor_pin1": 27,
+  "motor_pin2": 0,
+  "stop_pin_cw":  6,
+  "stop_pin_ccw": 25
+}

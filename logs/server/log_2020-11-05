@@ -1,0 +1,14 @@
+[23:06:18][info] ============================================
+[23:06:18][info] Read config file ok: /home/pi/Documents/cpp/OpenTheDoor-X/OpenTheDoor-CS/proj/config/token.json
+[23:06:19][info] bind for ip:127.0.0.1 success
+[23:06:19][info] start Server Socket on port : 5001
+[23:06:20][warning] Catch Ctrl+C <main.cpp> <handleCtrlC> <90>
+[23:06:20][info] stoping http server...
+[23:06:20][info] stop epoll , current clients:0
+[23:06:21][info] client is empty and ready for stop server!
+[23:06:21][info] epoll wait loop stop ...
+[23:06:21][info] Server stopped
+[23:06:21][info] Broadcasting STOP signal to all threads...
+[23:06:21][info] Unlocking and exiting: 1971258416
+[23:06:21][info] Unlocking and exiting: 1960834096
+[23:06:21][info] 2 threads exited from the thread pool, task size:0

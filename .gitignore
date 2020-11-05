@@ -1,0 +1,4 @@
+bin
+build
+config/token.json
+.xmake

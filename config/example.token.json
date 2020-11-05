@@ -1,0 +1,40 @@
+{
+    "root": [
+        {
+            "user": "xxx",
+            "value": "",
+            "sckey": "",
+            "fpid": [0, 1, 2, 3]
+        }
+    ],
+    "admin": [
+        {
+            "user": "yyy",
+            "value": "",
+            "sckey": "",
+            "fpid": [10, 11]
+        },
+        {
+            "user": "zzz",
+            "value": "",
+            "sckey": "",
+            "fpid": [20, 21]
+        },
+        {
+            "user": "aaa",
+            "value": "",
+            "sckey": "",
+            "fpid": [30, 31]
+        },
+        {
+            "user": "bbb",
+            "value": "",
+            "sckey": "",
+            "fpid": []
+        }
+    ],
+    "config": {
+        "charset": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+        "length": 32
+    }
+}
