@@ -2,7 +2,14 @@
 
 ## 一、简介
 
-基于树莓派3的寝室门禁系统，包括指纹识别开门、web请求开门。整个系统使用C++开发。
+基于树莓派3的寝室门禁系统，包括指纹识别开门、web请求开门。
+
+开发语言
+
++ 树莓派端：C++
++ 网页端：JS
+
+系统支持http(s)请求进行开门，因此很容易开发一个APP或者小程序，这里只是简单制作了一个网页端，用浏览器访问就能开门。
 
 ## 二、功能与特点
 
@@ -57,7 +64,7 @@
 
 +  ~~<a href="https://cqp.me/user" target="_blank">CoolQ</a>~~
 
-+ ~~[richardchien](https://github.com/richardchien)/[coolq-http-api~~](https://github.com/richardchien/coolq-http-api)
++ ~~[richardchien](https://github.com/richardchien)/[coolq-http-api](https://github.com/richardchien/coolq-http-api)~~
 
 ~~在公网服务器【linux】上运行 https://hub.docker.com/r/coolq/wine-coolq/ ，使用`screen`或`tmux`工具管理会话，保证其7x24小时在后台运行。~~
 
@@ -73,6 +80,8 @@
 校园网属于内网，部署在内网的服务无法被外网所访问。故需要进行内网穿透，即通过一台具有公网ip的服务器做代理。
 
 [fatedier](https://github.com/fatedier)/**[frp](https://github.com/fatedier/frp)**
+
+<img src="img/005.png" width="600px"/>
 
 ### 6. Https证书
 
@@ -107,7 +116,7 @@
 
 客户端[door_client]负责指纹识别，服务端[door_server]负责开门。
 
-door_client识别到正确的指纹，会向door_server发送Http请求（**服务端监听的是127.0.0.1，至于通过公网访问，是frp和nginx的转发。因此指纹识别客户端和服务器通信是不依赖于网络的，一定程度上提高了系统的可用性。**）。
+door_client识别到正确的指纹，会向door_server发送Http请求（**服务端监听的是127.0.0.1，至于通过公网访问，是frp和nginx的转发。因此指纹识别客户端和服务器通信是不依赖于网络的，一定程度上提高了系统的可用性**）。
 
 
 
@@ -115,11 +124,11 @@ door_client识别到正确的指纹，会向door_server发送Http请求（**服�
 
 项目中使用了以下库或代码
 
-### 1. Jsoncpp
+### 1. [Jsoncpp](https://github.com/open-source-parsers/jsoncpp)
 
-### 2. libcurl 
+### 2. [libcurl](https://github.com/curl/curl)
 
-### 3. spdlog 日志库
+### 3. [spdlog](https://github.com/gabime/spdlog)
 
 ## END
 
