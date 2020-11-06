@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>AccessToken</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="referrer" content="no-referrer" />
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/normalize.css?0.2">
+    <link rel="stylesheet" href="/css/index.css?0.2">
+    <link rel="stylesheet" href="/css/style.css?0.2">
+    <script type="text/javascript" src="/js/door.js?0.2"></script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="https://www.layuicdn.com/layer-v3.1.1/layer.js"></script>
+  </head>
+  <body>
+
+    <div class="main">
+      <!-- 按钮，开门 -->
+      <a class="btn" href="#" onclick="openTheDoor();">Open The Door</a>
+      <!-- 按钮，设置 -->
+      <a class="icon-btn" href="#" onclick="onSetting();">
+        <img src="img/setting.png"/>
+      </a>
+      <!-- 按钮，生成一次性开门链接 -->
+      <a class="icon-btn" href="#" onclick="genTempLink();">
+        <img src="img/token.png"/>
+      </a>
+    </div>
+
+  </body>
+</html>

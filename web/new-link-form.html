@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Html for popup form</title>
+    <style>
+      form {
+        margin: 0 auto;
+        width: 250px;
+        padding: 1em;
+        border: 0;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      form li + li {
+        margin-top: 1em;
+      }
+      label {
+        display: inline-block;
+        width: 120px;
+        text-align: right;
+      }
+      input {
+        font: 1em sans-serif;
+        width: 120px;
+        box-sizing: border-box;
+        border: 1px solid #999;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="/my-handling-form-page" method="post">
+      <ul>
+        <li>
+          <label for="name">链接使用者:</label>
+          <input type="text" id="user" name="user" autocomplete="off" placeholder="姓名" required />
+        </li>
+        <li>
+          <label for="mail">有效次数:</label>
+          <input type="text" id="max-times" autocomplete="off" name="max_times" value="1" onkeyup="value=value.replace(/[^\d]/g,'')" />
+        </li>
+        <li>
+          <label for="mail">有效时间:</label>
+          <input type="text" id="ttl" name="ttl" autocomplete="off" placeholder="最多300秒" onkeyup="value=value.replace(/[^\d]/g,'')" />
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>
