@@ -1,5 +1,6 @@
 bin
 build
 config/token.json
+config/token-bk.json
 logs
 .xmake
