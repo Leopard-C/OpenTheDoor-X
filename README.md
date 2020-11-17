@@ -28,7 +28,7 @@
 
 ## 四、其他图
 
-![image-20191121213215676](img/004.jpg)
+![image-20191121213215676](img/005.jpg)
 
 ![image-20191121213215676](img/002.jpg)
 
@@ -38,7 +38,7 @@
 + 设置token
 + 生成临时开门链接（指定使用次数和失效时间，在学校应该用不到这个功能的）
 
-<img src="img/003.jpg" width="300px"/>
+<img src="img/003.jpg" width="300px"/><img src="img/004.png" width="300px"/>
 
 
 
@@ -81,7 +81,7 @@
 
 [fatedier](https://github.com/fatedier)/**[frp](https://github.com/fatedier/frp)**
 
-<img src="img/005.png" width="600px"/>
+<img src="img/006.png" width="600px"/>
 
 ### 6. Https证书
 
@@ -116,7 +116,7 @@
 
 客户端[door_client]负责指纹识别，服务端[door_server]负责开门。
 
-door_client识别到正确的指纹，会向door_server发送Http请求（**服务端监听的是127.0.0.1，至于通过公网访问，是frp和nginx的转发。因此指纹识别客户端和服务器通信是不依赖于网络的，一定程度上提高了系统的可用性**）。
+door_client识别到正确的指纹，会向door_server发送Http请求（**服务端监听的是127.0.0.1，至于通过公网访问，是frp和nginx的转发。因此指纹识别客户端和服务器通信是不依赖于互联网的，一定程度上提高了系统的可用性**）。
 
 
 
